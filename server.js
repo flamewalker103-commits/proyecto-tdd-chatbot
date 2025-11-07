@@ -15,7 +15,7 @@ app.post('/chat', (req, res) => {
 function respondToMessage(message) {
     // Aquí iría la lógica del chatbot
     if (message === 'Hola') {
-        return '¡Hola! ¿Cómo puedo ayudarte?';
+        return '¡Hola! ¿Cómo puedo asistirte hoy?'; // Updated response
     }
     return 'Lo siento, no entiendo tu pregunta.';
 }
